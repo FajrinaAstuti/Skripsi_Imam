@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+    <Document>
+        <Camera>
+            <longitude>109.33614825172828</longitude>
+            <latitude>-0.061567972029384244</latitude>
+            <altitude>609.4185076851436</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+        </Camera>
+        <Style id="dotStyle">
+            <IconStyle>
+                <scale>0.2000000000000 </scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="RouteStyle 0">
+            <LineStyle>
+                <color>ff00ffff</color>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="RouteStyle 1">
+            <LineStyle>
+                <color>ff008000</color>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="RouteStyle 2">
+            <LineStyle>
+                <color>ff00ff00</color>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Folder>
+            <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route</name>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route</name>
+                <styleUrl>#RouteStyle 0</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3358306884766,-0.0609829984605,0 109.3358840942383,-0.0610329993069,0 </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route</name>
+                <styleUrl>#RouteStyle 1</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3358840942383,-0.0610329993069,0 109.3359298706055,-0.0610830001533,0 </coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_0</name>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_0</name>
+                <styleUrl>#RouteStyle 0</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3374176025391,-0.0622499994934,0 109.3374023437500,-0.0622830018401,0 </coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_1</name>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_1</name>
+                <styleUrl>#RouteStyle 2</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3373641967773,-0.0623169988394,0 109.3373336791992,-0.0623329989612,0 </coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_2</name>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_2</name>
+                <styleUrl>#RouteStyle 0</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3344345092773,-0.0607829988003,0 109.3344192504883,-0.0607669986784,0 </coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_3</name>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_3</name>
+                <styleUrl>#RouteStyle 0</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3343963623047,-0.0607330016792,0 109.3343811035156,-0.0607330016792,0 </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Data4G_Before_baliAgung3_16Nov18_055413.1 Route_3</name>
+                <styleUrl>#RouteStyle 2</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>109.3343811035156,-0.0607330016792,0 109.3343811035156,-0.0607500001788,0 </coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

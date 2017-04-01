@@ -1,0 +1,24 @@
+!Workspace
+!Version  600
+!Charset  WindowsLatin1
+Open Table "RSRQ" As RSRQ Interactive
+Map From RSRQ
+  Position (0,0) Units "pt"
+  Width 700 Units "pt" Height 500 Units "pt"
+Set Map
+  Zoom Entire Layer 1
+Preserve Zoom Display Zoom
+Create Cartographic Legend
+  Position (706,0) Units "pt"
+  Width 200 Units "pt" Height 500 Units "pt"
+  Window Title "Legend of RSRQ Map"
+  Portrait
+  Frame From Layer RSRQ
+    Border Pen (1,2,0)
+    Title "1. best RSRQ" Font ("Arial",0,10,0)
+    Style Font ("Arial",0,8,0)
+      Text "< -5 and >= -8 (3.44%)" Symbol (35,32768,14,"Map Symbols",0,0)
+      Text "< -8 and >= -10 (2.58%)" Symbol (35,65280,14,"Map Symbols",0,0)
+      Text "< -10 and >= -12 (4.30%)" Symbol (35,16776960,14,"Map Symbols",0,0)
+      Text "< -12 and >= -15 (89.69%)" Symbol (35,16711680,14,"Map Symbols",0,0)
+

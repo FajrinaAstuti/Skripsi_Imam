@@ -1,0 +1,23 @@
+!Workspace
+!Version  600
+!Charset  WindowsLatin1
+Open Table "RS SNR" As RS_SNR Interactive
+Map From RS_SNR
+  Position (0,0) Units "pt"
+  Width 700 Units "pt" Height 500 Units "pt"
+Set Map
+  Zoom Entire Layer 1
+Preserve Zoom Display Zoom
+Create Cartographic Legend
+  Position (706,0) Units "pt"
+  Width 200 Units "pt" Height 500 Units "pt"
+  Window Title "Legend of RS SNR Map"
+  Portrait
+  Frame From Layer RS_SNR
+    Border Pen (1,2,0)
+    Title "lte_rs_snr" Font ("Arial",0,10,0)
+    Style Font ("Arial",0,8,0)
+      Text "< 10 (98.40%)" Symbol (35,16711680,14,"Map Symbols",0,0)
+      Text ">= 10 and < 20 (1.60%)" Symbol (35,16776960,14,"Map Symbols",0,0)
+      Text ">= 20 (0.00%)" Symbol (35,65280,14,"Map Symbols",0,0)
+

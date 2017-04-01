@@ -1,0 +1,10 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Description "Analyze Export 5"
+  Type Native charset "Neutral"
+  Fields 2
+    time char (64) ;
+    lte_rs_snr float ;
